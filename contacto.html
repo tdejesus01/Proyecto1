@@ -3,27 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiago Ezequiel de Jesus</title>
+    <title>Transformación empresarial — Thiago Ezequiel</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body class="home-page">
+<body>
     <header class="site-header">
-        <nav>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="intereses.html">Intereses</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </nav>
+        <div class="nav-inner">
+            <a class="brand" href="index.html">Thiago Ezequiel</a>
+            <nav aria-label="Navegación principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="intereses.html">Servicios</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main class="page-shell">
-        <h2>Contacto</h2>
-        <a href="mailto:tdejesus@uade.edu.ar">tdejesus@uade.edu.ar</a>
+        <section class="section-block">
+            <p class="section-label">Vamos a transformar tu empresa</p>
+            <h1>Conectemos</h1>
+            <p class="section-copy">No creo en propuestas genéricas. Prefiero una conversación. Cuéntame qué te duele, qué mides, hacia dónde quieres ir. Desde ahí construimos el camino juntos.</p>
+        </section>
+
+        <section class="contact-grid">
+            <div class="card">
+                <h2>Cómo contactarme</h2>
+                <ul class="contact-details">
+                    <li><strong>Email (prioritario):</strong> <a href="mailto:thiago@trackline.com">thiago@trackline.com</a></li>
+                    <li><strong>Teléfono:</strong> +54 (11) 3456-7890</li>
+                    <li><strong>Disponibilidad:</strong> Consultas urgentes, máximo 24-48hs respuesta</li>
+                </ul>
+            </div>
+            <div class="card form-card">
+                <h2>Hablemos de tu reto</h2>
+                <form>
+                    <label for="name">Tu nombre</label>
+                    <input id="name" type="text" placeholder="¿Cómo te llamas?">
+
+                    <label for="email">Email de contacto</label>
+                    <input id="email" type="email" placeholder="tu@empresa.com">
+
+                    <label for="message">Tu mayor dolor empresarial</label>
+                    <textarea id="message" rows="6" placeholder="Cuéntame qué te quita el sueño: proyectos retrasados, costos fuera de control, datos desorganizados..."></textarea>
+
+                    <button class="btn btn-primary" type="submit">Enviar consulta</button>
+                </form>
+            </div>
+        </section>
     </main>
+
     <footer class="site-footer">
         <div class="footer-inner">
-            <p>Copyright 2026 - Trackline Studio - Todos los derechos reservados</p>
-            <div class="footer-bottom">
-                <a href="index.html">Inicio</a> |
-            </div>
+            <p>© 2026 TrackLine — Transformación empresarial inteligente</p>
+            <nav aria-label="Navegación secundaria">
+                <a href="index.html">Inicio</a>
+                <a href="intereses.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
         </div>
     </footer>
 </body>

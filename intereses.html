@@ -3,32 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiago Ezequiel de Jesus</title>
+    <title>Servicios y metodología — Thiago Ezequiel</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body class="home-page">
+<body>
     <header class="site-header">
-        <nav>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="intereses.html">Intereses</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </nav>
+        <div class="nav-inner">
+            <a class="brand" href="index.html">Thiago Ezequiel</a>
+            <nav aria-label="Navegación principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="intereses.html" class="active">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main class="page-shell">
-        <h2>Intereses</h2>
-        <ul>
-            <li>Padel</li>
-            <li>Tenis</li>
-            <li>Futbol</li>
-            <li>Videojuegos</li>
-        </ul>
+        <section class="section-block">
+            <p class="section-label">Servicios especializados de TrackLine</p>
+            <h1>Métodos que generan resultados</h1>
+            <p class="section-copy">Cada servicio está diseñado para atacar un problema específico. No ofrezco paquetes genéricos—personalizo soluciones según tu realidad empresarial.</p>
+        </section>
+
+        <section class="cards-grid">
+            <article class="card">
+                <h2>Rediseño de operaciones</h2>
+                <p>Analizo tu cadena de valor completa. Identifico fricciones invisibles, elimino duplicidades y diseño flujos que aceleran la ejecución. Promedio: 35% menos tiempo en tareas administrativas.</p>
+            </article>
+            <article class="card">
+                <h2>Dirección de transformación</h2>
+                <p>Lidero cambios organizacionales complejos. Desde la estrategia hasta la adopción, gestiono resistencias y construyo coaliciones internas que sostienen la transformación.</p>
+            </article>
+            <article class="card">
+                <h2>Stack tecnológico inteligente</h2>
+                <p>No es sobre tener las herramientas más caras. Diseño ecosistemas SaaS que escalan con tu empresa. Automatizo lo que debe automatizarse, humanizo lo que debe ser humano.</p>
+            </article>
+            <article class="card">
+                <h2>Inteligencia de datos activada</h2>
+                <p>Datos sin acción son solo ruido. Construyo sistemas de BI que conviertan números en decisiones. Dashboards que ejecutivos de verdad usan, no documentos que nunca leen.</p>
+            </article>
+        </section>
+
+        <section class="section-block">
+            <h2>Metodología: Diagnosticar, diseñar, activar</h2>
+            <p>No empiezo con soluciones. Empiezo con preguntas difíciles. Fase 1: mapeo profundo de tu realidad. Fase 2: diseño de la transformación con consenso. Fase 3: ejecución con métricas. Cada paso es tangible, medible y adaptable.</p>
+            <a class="btn btn-primary" href="contacto.html">Solicitar diagnóstico</a>
+        </section>
     </main>
+
     <footer class="site-footer">
         <div class="footer-inner">
-            <p>Copyright 2026 - Trackline Studio - Todos los derechos reservados</p>
-            <div class="footer-bottom">
-                <a href="index.html">Inicio</a> |
-            </div>
+            <p>© 2026 TrackLine — Transformación empresarial inteligente</p>
+            <nav aria-label="Navegación secundaria">
+                <a href="index.html">Inicio</a>
+                <a href="intereses.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
         </div>
     </footer>
 </body>
